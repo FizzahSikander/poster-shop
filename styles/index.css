@@ -1,0 +1,221 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 608px;
+    background-color: #3DE07E;
+    margin: 0;
+    color: #222;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+    display: contents;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 102px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main {
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid {
+    align-self: flex-start;
+    font-size: 32px;
+    margin: 32px;
+}
+
+.layout__main {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.card {
+    max-width: 313px;
+    min-height: 543px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    color: white;
+    margin-left: 33px;
+}
+
+.card__title {
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card__info {
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.secondcard {
+    max-width: 484px;
+    min-height: 770px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    position: relative;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.secondcard__title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #222;
+    font-family: Fira Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card__img {
+    width: 310px;
+    height: 312px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.secondcard__img {
+    height: 486px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.second-btn {
+    position: absolute;
+    justify-content: center;
+    bottom: 10px;
+    width: 173px;
+    height: 49px;
+    border: none;
+    border-radius: 4px;
+    background: #E83F57;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #FFF;
+}
+
+.btn {
+    position: absolute;
+    justify-content: center;
+    bottom: 10px;
+    width: 139px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background: #E83F57;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.secondcard__info {
+    margin-left: 10px;
+    color: #222;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    height: 66px;
+}
+
+footer {
+    max-width: 1438px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(51, 50, 50);
+}
+
+.footer-heading {
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+.thirdpage_container-info {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.fa-brands {
+    color: #FFF;
+    font-size: 32px;
+    margin-left: 16px;
+    margin-top: 17px;
+}
